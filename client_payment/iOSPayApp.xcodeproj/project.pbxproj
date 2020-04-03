@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20837ED3287DA19E71751A15 /* Pods_iOSPayAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334EF9D59D98F307D6A43EDB /* Pods_iOSPayAppTests.framework */; };
+		4488CEEE83FA4DB631CD1BA6 /* Pods_iOSPayAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CF3D8C16EC636D5B3D53D /* Pods_iOSPayAppUITests.framework */; };
+		AD141E40E37F6FF3120DE5F8 /* Pods_iOSPayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2390F23019A77FF838D669CB /* Pods_iOSPayApp.framework */; };
+		C2E5B390229EFEA4008ECA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5B38F229EFEA4008ECA0B /* AppDelegate.swift */; };
+		C2E5B392229EFEA4008ECA0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5B391229EFEA4008ECA0B /* ViewController.swift */; };
+		C2E5B395229EFEA4008ECA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5B393229EFEA4008ECA0B /* Main.storyboard */; };
+		C2E5B397229EFEA5008ECA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E5B396229EFEA5008ECA0B /* Assets.xcassets */; };
+		C2E5B39A229EFEA5008ECA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5B398229EFEA5008ECA0B /* LaunchScreen.storyboard */; };
+		C2E5B3A5229EFEA5008ECA0B /* iOSPayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5B3A4229EFEA5008ECA0B /* iOSPayAppTests.swift */; };
+		C2E5B3B0229EFEA5008ECA0B /* iOSPayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5B3AF229EFEA5008ECA0B /* iOSPayAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E5B3A1229EFEA5008ECA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E5B384229EFEA4008ECA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E5B38B229EFEA4008ECA0B;
+			remoteInfo = iOSPayApp;
+		};
+		C2E5B3AC229EFEA5008ECA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E5B384229EFEA4008ECA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E5B38B229EFEA4008ECA0B;
+			remoteInfo = iOSPayApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEE31A0B85CF4E62382BDA4 /* Pods-iOSPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayApp.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2390F23019A77FF838D669CB /* Pods_iOSPayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		334EF9D59D98F307D6A43EDB /* Pods_iOSPayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F84D38C4F25349AF4F91010 /* Pods-iOSPayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayAppTests/Pods-iOSPayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AFAD003FD3FAAD6E7FA7A74 /* Pods-iOSPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayAppUITests/Pods-iOSPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F6CF3D8C16EC636D5B3D53D /* Pods_iOSPayAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B838E579AE6A0F0BC9038951 /* Pods-iOSPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSPayAppUITests/Pods-iOSPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E5B38C229EFEA4008ECA0B /* iOSPayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5B38F229EFEA4008ECA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E5B391229EFEA4008ECA0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E5B394229EFEA4008ECA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E5B396229EFEA5008ECA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E5B399229EFEA5008ECA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E5B39B229EFEA5008ECA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E5B3A0229EFEA5008ECA0B /* iOSPayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5B3A4229EFEA5008ECA0B /* iOSPayAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPayAppTests.swift; sourceTree = "<group>"; };
+		C2E5B3A6229EFEA5008ECA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E5B3AB229EFEA5008ECA0B /* iOSPayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5B3AF229EFEA5008ECA0B /* iOSPayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPayAppUITests.swift; sourceTree = "<group>"; };
+		C2E5B3B1229EFEA5008ECA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA36E61442599BFEBC3E442 /* Pods-iOSPayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayAppTests.release.xcconfig"; path = "Target Support Files/Pods-iOSPayAppTests/Pods-iOSPayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D182F0B0FA6F4A9229BAAE1C /* Pods-iOSPayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayApp.release.xcconfig"; path = "Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E5B389229EFEA4008ECA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD141E40E37F6FF3120DE5F8 /* Pods_iOSPayApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B39D229EFEA5008ECA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20837ED3287DA19E71751A15 /* Pods_iOSPayAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B3A8229EFEA5008ECA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4488CEEE83FA4DB631CD1BA6 /* Pods_iOSPayAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DC007B0544D781621ADC4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2390F23019A77FF838D669CB /* Pods_iOSPayApp.framework */,
+				334EF9D59D98F307D6A43EDB /* Pods_iOSPayAppTests.framework */,
+				9F6CF3D8C16EC636D5B3D53D /* Pods_iOSPayAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E5B383229EFEA4008ECA0B = {
+			isa = PBXGroup;
+			children = (
+				C2E5B38E229EFEA4008ECA0B /* iOSPayApp */,
+				C2E5B3A3229EFEA5008ECA0B /* iOSPayAppTests */,
+				C2E5B3AE229EFEA5008ECA0B /* iOSPayAppUITests */,
+				C2E5B38D229EFEA4008ECA0B /* Products */,
+				D115DFAEE9B1741B7A6064CA /* Pods */,
+				40DC007B0544D781621ADC4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E5B38D229EFEA4008ECA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5B38C229EFEA4008ECA0B /* iOSPayApp.app */,
+				C2E5B3A0229EFEA5008ECA0B /* iOSPayAppTests.xctest */,
+				C2E5B3AB229EFEA5008ECA0B /* iOSPayAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E5B38E229EFEA4008ECA0B /* iOSPayApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5B38F229EFEA4008ECA0B /* AppDelegate.swift */,
+				C2E5B391229EFEA4008ECA0B /* ViewController.swift */,
+				C2E5B393229EFEA4008ECA0B /* Main.storyboard */,
+				C2E5B396229EFEA5008ECA0B /* Assets.xcassets */,
+				C2E5B398229EFEA5008ECA0B /* LaunchScreen.storyboard */,
+				C2E5B39B229EFEA5008ECA0B /* Info.plist */,
+			);
+			path = iOSPayApp;
+			sourceTree = "<group>";
+		};
+		C2E5B3A3229EFEA5008ECA0B /* iOSPayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5B3A4229EFEA5008ECA0B /* iOSPayAppTests.swift */,
+				C2E5B3A6229EFEA5008ECA0B /* Info.plist */,
+			);
+			path = iOSPayAppTests;
+			sourceTree = "<group>";
+		};
+		C2E5B3AE229EFEA5008ECA0B /* iOSPayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5B3AF229EFEA5008ECA0B /* iOSPayAppUITests.swift */,
+				C2E5B3B1229EFEA5008ECA0B /* Info.plist */,
+			);
+			path = iOSPayAppUITests;
+			sourceTree = "<group>";
+		};
+		D115DFAEE9B1741B7A6064CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CEE31A0B85CF4E62382BDA4 /* Pods-iOSPayApp.debug.xcconfig */,
+				D182F0B0FA6F4A9229BAAE1C /* Pods-iOSPayApp.release.xcconfig */,
+				5F84D38C4F25349AF4F91010 /* Pods-iOSPayAppTests.debug.xcconfig */,
+				CAA36E61442599BFEBC3E442 /* Pods-iOSPayAppTests.release.xcconfig */,
+				8AFAD003FD3FAAD6E7FA7A74 /* Pods-iOSPayAppUITests.debug.xcconfig */,
+				B838E579AE6A0F0BC9038951 /* Pods-iOSPayAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E5B38B229EFEA4008ECA0B /* iOSPayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E5B3B4229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayApp" */;
+			buildPhases = (
+				71EC423D048854E941F8CB0E /* [CP] Check Pods Manifest.lock */,
+				C2E5B388229EFEA4008ECA0B /* Sources */,
+				C2E5B389229EFEA4008ECA0B /* Frameworks */,
+				C2E5B38A229EFEA4008ECA0B /* Resources */,
+				99A6702947BB81E5DFAEB648 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPayApp;
+			productName = iOSPayApp;
+			productReference = C2E5B38C229EFEA4008ECA0B /* iOSPayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E5B39F229EFEA5008ECA0B /* iOSPayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E5B3B7229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayAppTests" */;
+			buildPhases = (
+				3CD03C6FFA7F4A26F146228C /* [CP] Check Pods Manifest.lock */,
+				C2E5B39C229EFEA5008ECA0B /* Sources */,
+				C2E5B39D229EFEA5008ECA0B /* Frameworks */,
+				C2E5B39E229EFEA5008ECA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E5B3A2229EFEA5008ECA0B /* PBXTargetDependency */,
+			);
+			name = iOSPayAppTests;
+			productName = iOSPayAppTests;
+			productReference = C2E5B3A0229EFEA5008ECA0B /* iOSPayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2E5B3AA229EFEA5008ECA0B /* iOSPayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E5B3BA229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayAppUITests" */;
+			buildPhases = (
+				E923F525CB2C5878A2496F20 /* [CP] Check Pods Manifest.lock */,
+				C2E5B3A7229EFEA5008ECA0B /* Sources */,
+				C2E5B3A8229EFEA5008ECA0B /* Frameworks */,
+				C2E5B3A9229EFEA5008ECA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E5B3AD229EFEA5008ECA0B /* PBXTargetDependency */,
+			);
+			name = iOSPayAppUITests;
+			productName = iOSPayAppUITests;
+			productReference = C2E5B3AB229EFEA5008ECA0B /* iOSPayAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E5B384229EFEA4008ECA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bear Cahill";
+				TargetAttributes = {
+					C2E5B38B229EFEA4008ECA0B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C2E5B39F229EFEA5008ECA0B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C2E5B38B229EFEA4008ECA0B;
+					};
+					C2E5B3AA229EFEA5008ECA0B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C2E5B38B229EFEA4008ECA0B;
+					};
+				};
+			};
+			buildConfigurationList = C2E5B387229EFEA4008ECA0B /* Build configuration list for PBXProject "iOSPayApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E5B383229EFEA4008ECA0B;
+			productRefGroup = C2E5B38D229EFEA4008ECA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E5B38B229EFEA4008ECA0B /* iOSPayApp */,
+				C2E5B39F229EFEA5008ECA0B /* iOSPayAppTests */,
+				C2E5B3AA229EFEA5008ECA0B /* iOSPayAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E5B38A229EFEA4008ECA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5B39A229EFEA5008ECA0B /* LaunchScreen.storyboard in Resources */,
+				C2E5B397229EFEA5008ECA0B /* Assets.xcassets in Resources */,
+				C2E5B395229EFEA4008ECA0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B39E229EFEA5008ECA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B3A9229EFEA5008ECA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CD03C6FFA7F4A26F146228C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71EC423D048854E941F8CB0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A6702947BB81E5DFAEB648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E923F525CB2C5878A2496F20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E5B388229EFEA4008ECA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5B392229EFEA4008ECA0B /* ViewController.swift in Sources */,
+				C2E5B390229EFEA4008ECA0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B39C229EFEA5008ECA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5B3A5229EFEA5008ECA0B /* iOSPayAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5B3A7229EFEA5008ECA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5B3B0229EFEA5008ECA0B /* iOSPayAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E5B3A2229EFEA5008ECA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E5B38B229EFEA4008ECA0B /* iOSPayApp */;
+			targetProxy = C2E5B3A1229EFEA5008ECA0B /* PBXContainerItemProxy */;
+		};
+		C2E5B3AD229EFEA5008ECA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E5B38B229EFEA4008ECA0B /* iOSPayApp */;
+			targetProxy = C2E5B3AC229EFEA5008ECA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E5B393229EFEA4008ECA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5B394229EFEA4008ECA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E5B398229EFEA5008ECA0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5B399229EFEA5008ECA0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E5B3B2229EFEA5008ECA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E5B3B3229EFEA5008ECA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E5B3B5229EFEA5008ECA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEE31A0B85CF4E62382BDA4 /* Pods-iOSPayApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E5B3B6229EFEA5008ECA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D182F0B0FA6F4A9229BAAE1C /* Pods-iOSPayApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2E5B3B8229EFEA5008ECA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F84D38C4F25349AF4F91010 /* Pods-iOSPayAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPayApp.app/iOSPayApp";
+			};
+			name = Debug;
+		};
+		C2E5B3B9229EFEA5008ECA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA36E61442599BFEBC3E442 /* Pods-iOSPayAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPayApp.app/iOSPayApp";
+			};
+			name = Release;
+		};
+		C2E5B3BB229EFEA5008ECA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFAD003FD3FAAD6E7FA7A74 /* Pods-iOSPayAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPayApp;
+			};
+			name = Debug;
+		};
+		C2E5B3BC229EFEA5008ECA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B838E579AE6A0F0BC9038951 /* Pods-iOSPayAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iOSPayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPayApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E5B387229EFEA4008ECA0B /* Build configuration list for PBXProject "iOSPayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5B3B2229EFEA5008ECA0B /* Debug */,
+				C2E5B3B3229EFEA5008ECA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E5B3B4229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5B3B5229EFEA5008ECA0B /* Debug */,
+				C2E5B3B6229EFEA5008ECA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E5B3B7229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5B3B8229EFEA5008ECA0B /* Debug */,
+				C2E5B3B9229EFEA5008ECA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E5B3BA229EFEA5008ECA0B /* Build configuration list for PBXNativeTarget "iOSPayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5B3BB229EFEA5008ECA0B /* Debug */,
+				C2E5B3BC229EFEA5008ECA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E5B384229EFEA4008ECA0B /* Project object */;
+}

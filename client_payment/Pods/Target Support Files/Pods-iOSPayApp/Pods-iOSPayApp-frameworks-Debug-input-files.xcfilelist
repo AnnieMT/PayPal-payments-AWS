@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSPayApp/Pods-iOSPayApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework
+${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework
